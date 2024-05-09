@@ -1,5 +1,5 @@
 abstract class Constants {
-  static const appName = 'OutcodeApp';
+  static const appName = 'Outcode Suite';
   static const hasAppScreenSheild = 1;
   static const showsInternetConnectivitySheild = true;
   static const inAppNotificationDuration = 3;

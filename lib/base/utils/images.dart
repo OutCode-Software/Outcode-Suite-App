@@ -1,5 +1,5 @@
 abstract class Images {
-  static const placeholderImage = 'assets/images/uat.png';
+  static const placeholderImage = 'assets/images/prod.png';
   static const logoTitle = 'assets/images/logoTitle.png';
   static const recipeImageBackground =
       'assets/images/svgs/recipeImageBackground.svg';

@@ -1,3 +1,4 @@
+import '../features/authentication/bloc/authentication_bloc.dart';
 import '../features/device_management/bloc/device_management_bloc.dart';
 import '../features/firebase_dynamic_link_handler/bloc/firebase_dynamic_link_handler_bloc.dart';
 import '../features/others/about_app_screen/app_information_view/bloc/app_version_info_view_bloc.dart';
@@ -8,6 +9,9 @@ class BlocModule {
 
   static void init() {
     final injector = Injector.instance;
+
+    injector.registerLazySingleton<AuthenticationBloc>(() => AuthenticationBloc(
+        authenticationRepository: injector(), userRepository: injector()));
 
     _initializeTertiaryBloc();
   }
