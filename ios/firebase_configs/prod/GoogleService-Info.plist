@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBEjVfjcXWnIOkOgFxEXqLyaA4Izhp6JY8</string>
+	<string>AIzaSyARQ4vdjGOdPHWvdLqj-9cu5cpl4huO4Dw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>980683913450</string>
+	<string>235732202522</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.stackup.app</string>
+	<string>com.outcode.suite</string>
 	<key>PROJECT_ID</key>
-	<string>stackup-app</string>
+	<string>outcode-suite-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>stackup-app.appspot.com</string>
+	<string>outcode-suite-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:980683913450:ios:c4530bab5eda387da63f93</string>
+	<string>1:235732202522:ios:f904ac37e046516e8b0da3</string>
 </dict>
 </plist>

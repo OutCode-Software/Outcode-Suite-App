@@ -9,7 +9,9 @@ import 'package:outcode_package/functionalities/app_version_checker/app_version_
 import 'package:outcode_package/functionalities/oc_bug_reporter/oc_bug_reporter_wrapper_screen.dart';
 
 import 'app_theme/app_theme_manager.dart';
+import 'features/authentication/account/login/login_screen.dart';
 import 'features/authentication/bloc/authentication_bloc.dart';
+import 'features/dashboard/dashboard_screen.dart';
 import 'features/device_management/bloc/device_management_bloc.dart';
 import 'features/others/about_app_screen/app_information_view/bloc/app_version_info_view_bloc.dart';
 import 'features/splash_screen.dart';
@@ -85,7 +87,7 @@ class _MainAppState extends State<MainApp> {
                   const Padding(
                     padding: EdgeInsets.only(top: 15),
                     child: Text(
-                      'Stack Up',
+                      'Outcode Suite',
                       style: TextStyle(color: Colors.black),
                     ),
                   )
@@ -107,8 +109,15 @@ class _MainAppState extends State<MainApp> {
                     bloc: _bloc,
                     listener: (context, state) {
                       if (state is AuthenticationAuthenticatedState) {
+                        _navigator?.pushAndRemoveUntil(
+                            DashboardScreen.route(), (route) => false);
                       } else if (state is AuthenticationUnauthenticatedState) {
-                      } else if (state is AuthenticationTokenExistState) {}
+                        _navigator?.pushAndRemoveUntil(
+                            LoginScreen.route(), (route) => false);
+                      } else if (state is AuthenticationTokenExistState) {
+                        _navigator?.pushAndRemoveUntil(
+                            DashboardScreen.route(), (route) => false);
+                      }
                     },
                     child: child!,
                   ),

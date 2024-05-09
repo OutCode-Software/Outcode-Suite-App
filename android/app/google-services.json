@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "235732202522",
+    "project_id": "outcode-suite-app",
+    "storage_bucket": "outcode-suite-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235732202522:android:5b1305d6ff7bf2888b0da3",
+        "android_client_info": {
+          "package_name": "com.outcode.suite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtY5mgwjj3b46v3PBbfMj30qkaFSBPGsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235732202522:android:ecdc1aaf06bc75c68b0da3",
+        "android_client_info": {
+          "package_name": "com.outcode.suite.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtY5mgwjj3b46v3PBbfMj30qkaFSBPGsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235732202522:android:e6f1c1cce6b543e98b0da3",
+        "android_client_info": {
+          "package_name": "com.outcode.suite.uat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtY5mgwjj3b46v3PBbfMj30qkaFSBPGsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
