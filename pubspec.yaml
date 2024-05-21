@@ -38,7 +38,6 @@ dependencies:
   freezed_annotation:
   easy_localization: 3.0.6
   flutter_secure_storage:
-  dio:
   json_annotation:
   retrofit:
   logger:
@@ -61,13 +60,11 @@ dependencies:
   font_awesome_flutter:
   firebase_core:
   firebase_crashlytics:
-  flutter_local_notifications:
   vibration:
   url_launcher:
   syncfusion_flutter_datepicker:
   flutter_cache_manager:
   path_provider:
-  permission_handler:
   file_picker:
   firebase_analytics:
   logging:
@@ -94,9 +91,17 @@ dependencies:
   google_fonts: 4.0.4
   firebase_dynamic_links: ^5.5.1
   video_player: ^2.8.6
+  mask_text_input_formatter: ^2.9.0
+  alice: 0.4.1
+  device_info_plus: ^10.1.0
 
 dependency_overrides:
   http: any
+  dio: any
+  package_info_plus: any
+  flutter_local_notifications: any
+  permission_handler: any
+  rxdart: any
   flick_video_player: any
   win32: any
   wakelock: any
